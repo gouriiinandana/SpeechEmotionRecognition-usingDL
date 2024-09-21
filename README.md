@@ -12,10 +12,13 @@ Since we are primarily focusing on processing the speech, the audio(WAV format) 
 
 # Features
 
-Speech data preprocessing: Utilizes various Python libraries to preprocess and clean speech data
-Deep Learning Model: Implemented a deep learning model, Convolutional Neural Network (CNN) to extract meaningful features from the audio data.
-Emotion Classification: Trained the model to classify speech into different emotion categories, such as happiness, sadness, anger, fear, etc.
-Evaluation Metrics: Computes and display the evaluation metrics like accuracy, F1-score, and confusion matrix to assess the model's performance.
+- Speech data preprocessing: Utilizes various Python libraries to preprocess and clean speech data
+
+- Deep Learning Model: Implemented a deep learning model, Convolutional Neural Network (CNN) to extract meaningful features from the audio data.
+
+- Emotion Classification: Trained the model to classify speech into different emotion categories, such as happiness, sadness, anger, fear, etc.
+
+- Evaluation Metrics: Computes and display the evaluation metrics like accuracy, F1-score, and confusion matrix to assess the model's performance.
 
 # Metrics after applying CNN (Convolutional Neural Network) to the dataset:
 
