@@ -10,6 +10,13 @@ Classify the emotion in the audio speech file using various machine learning and
 To do the analysis, I’ve explored datasets containing audio and video files by professional actors in different emotional sequences (happy, angry, sad, surprised, frightened, neutral and calm).
 Since we are primarily focusing on processing the speech, the audio(WAV format) has been extracted from the video files(MP4 format). Then, the speech features such as, Mel Frequency Cepstrum Coefficients (MFCC) has been generated from the speech.
 
+# Features
+
+Speech data preprocessing: Utilizes various Python libraries to preprocess and clean speech data
+Deep Learning Model: Implemented a deep learning model, Convolutional Neural Network (CNN) to extract meaningful features from the audio data.
+Emotion Classification: Trained the model to classify speech into different emotion categories, such as happiness, sadness, anger, fear, etc.
+Evaluation Metrics: Computes and display the evaluation metrics like accuracy, F1-score, and confusion matrix to assess the model's performance.
+
 # Metrics after applying CNN (Convolutional Neural Network) to the dataset:
 
 ![image](https://github.com/user-attachments/assets/ffcbcac9-8021-45d6-ad58-89c3959f08d2)
